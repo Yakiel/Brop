@@ -5,5 +5,6 @@ export default class Persona {
     
     saludo(){
         document.write('Hola, ' + this.nombre + '...')
+        console.log('OK')
     }
 }
