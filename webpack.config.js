@@ -5,7 +5,7 @@ module.exports = {
         app: ['./src/index.js', './src/sass/app.sass']
     },
     output: {
-        path: './build',
+        path: './',
         filename: 'bundle.js',
         //publicPath: './build/'
     },
