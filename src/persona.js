@@ -4,7 +4,7 @@ export default class Persona {
     }
     
     saludo(){
-        document.write('Hola, ' + this.nombre + '...')
+        document.write('Hello, ' + this.nombre + ' welcome to Brop!')
         console.log('OK')
     }
 }

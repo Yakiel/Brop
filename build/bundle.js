@@ -88,7 +88,7 @@
 	    _createClass(Persona, [{
 	        key: 'saludo',
 	        value: function saludo() {
-	            document.write('Hola, ' + this.nombre + '...');
+	            document.write('Hello, ' + this.nombre + ' welcome to Brop!');
 	            console.log('OK');
 	        }
 	    }]);
@@ -130,10 +130,10 @@
 
 	exports = module.exports = __webpack_require__(5)();
 	// imports
-
+	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Lato:300);", ""]);
 
 	// module
-	exports.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box; }\n\nbody {\n  background: orange;\n  font-family: 'Arial'; }\n", ""]);
+	exports.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box; }\n\nbody {\n  background: #eee;\n  font-family: 'Lato';\n  min-height: 100vh;\n  text-align: center; }\n", ""]);
 
 	// exports
 
