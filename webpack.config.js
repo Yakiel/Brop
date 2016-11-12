@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     entry: {
-        app: ['./src/index.js','./src/app.sass']
+        app: ['./src/index.js', './src/sass/app.sass']
     },
     output: {
         path: './build',
